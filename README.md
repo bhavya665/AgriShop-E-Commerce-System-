@@ -44,11 +44,6 @@ A modern, responsive e-commerce platform specifically designed for agricultural 
 
 ## 📋 Requirements
 
-### Server Requirements
-- PHP 7.4 or higher
-- Web server (Apache/Nginx)
-- MySQL 5.7+ OR MongoDB 4.0+
-
 ### PHP Extensions
 - PDO (for MySQL)
 - MongoDB PHP Driver (for MongoDB)
@@ -74,47 +69,11 @@ mysql -u root -p agri_ecommerce < database_setup.sql
 
 #### For MongoDB:
 1. Install MongoDB PHP Driver:
-```bash
-# Ubuntu/Debian
-sudo apt-get install php-mongodb
-
-# CentOS/RHEL
-sudo yum install php-mongodb
-
-# Windows (using Composer)
-composer require mongodb/mongodb
-```
-
 2. Run the MongoDB setup script:
-```bash
-php mongo_setup.php
-```
 
 ### 3. Configure Application
 
 1. Edit `config.php`:
-```php
-// Choose your database type
-$database_type = 'mysql'; // or 'mongodb'
-
-// Update base URL
-$base_url = "http://localhost/agriShop/";
-
-// Configure database credentials
-$database_config = [
-    'mysql' => [
-        'host' => 'localhost',
-        'username' => 'your_username',
-        'password' => 'your_password',
-        'database' => 'agri_ecommerce'
-    ],
-    'mongodb' => [
-        'host' => 'localhost',
-        'port' => 27017,
-        'database' => 'agri_ecommerce'
-    ]
-];
-```
 
 ### 4. Create Required Directories
 ```bash
@@ -202,15 +161,6 @@ agriShop/
 - Pagination settings
 - Error reporting options
 
-## 🛡️ Security Features
-
-- **Password Hashing** - Secure password storage using PHP's password_hash()
-- **CSRF Protection** - Cross-site request forgery protection
-- **Input Sanitization** - All user inputs are sanitized
-- **SQL Injection Prevention** - Prepared statements and parameterized queries
-- **Session Security** - Secure session handling with timeout
-- **File Upload Security** - Validated file uploads with size and type restrictions
-
 ## 🎨 Customization
 
 ### Styling
@@ -257,54 +207,9 @@ agriShop/
 
 ### Database Functions
 
-#### MySQL Functions
-- `getFeaturedProducts($conn)` - Get featured products
-- `getProductById($id)` - Get product by ID
-- `getRelatedProducts($categoryId, $excludeId, $limit)` - Get related products
-
 #### MongoDB Functions
 - `getFeaturedProductsMongo()` - Get featured products
 - `getProductByIdMongo($id)` - Get product by ID
 - `getRelatedProductsMongo($categoryId, $excludeId, $limit)` - Get related products
-
-### Utility Functions
-- `sanitizeInput($input)` - Sanitize user input
-- `validateEmail($email)` - Validate email format
-- `formatPrice($price)` - Format price display
-- `uploadFile($file, $destination)` - Handle file uploads
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For support and questions:
-- Email: support@agricart.com
-- Create an issue on GitHub
-- Check the troubleshooting section
-
-## 🔄 Updates
-
-### Version 1.0.0
-- Initial release with MySQL support
-- Basic e-commerce functionality
-- Admin panel
-
-### Version 1.1.0
-- Added MongoDB support
-- Enhanced security features
-- Improved error handling
-- Better documentation
-
----
 
 **Note**: This application is designed for educational and development purposes. For production use, ensure proper security measures, SSL certificates, and regular backups are implemented. 
