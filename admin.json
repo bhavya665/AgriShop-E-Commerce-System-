@@ -1,0 +1,10 @@
+[
+    {
+        "_id": "admin_688c9ba737cc9",
+        "username": "admin",
+        "password": "$2y$10$QvXA2f9yTuQi0.D\/FEgCvuYDxuGkr42cVVHii9PVHocEYLAoiFzFe",
+        "email": "admin@agrishop.com",
+        "role": "admin",
+        "created_at": "2025-08-01 12:49:11"
+    }
+]

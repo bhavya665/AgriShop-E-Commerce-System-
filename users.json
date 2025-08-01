@@ -1,0 +1,40 @@
+[
+    {
+        "_id": "user_688c9ba74578b",
+        "username": "farmer1",
+        "password": "$2y$10$1b65h0MLngMkWSkiCGSvO.\/p17cVZHzCsyTWyXJ7IhQN1Cj1\/6dd6",
+        "email": "farmer1@example.com",
+        "full_name": "John Farmer",
+        "phone": "+1234567890",
+        "address": "123 Farm Road, Countryside",
+        "role": "user",
+        "created_at": "2025-08-01 12:49:11"
+    },
+    {
+        "_id": "688ca1d1a2e54_1754046929"
+    },
+    {
+        "name": "Test User",
+        "email": "newuser@test.com",
+        "password": "$2y$10$uH0DKZsjRljztrrNK0l6TO4VaDgLnJCvX9Cp1tb0y9A2qgTV70Xre",
+        "created_at": "2025-08-01 13:16:01",
+        "role": "user",
+        "_id": "688ca1f1307e8_1754046961"
+    },
+    {
+        "full_name": "Final Test User",
+        "email": "finaltest@example.com",
+        "password": "$2y$10$zIrGaGGewFedmKVsg2zwDubdfUTfM9qmMhPfId4ZTqgBAUklF6MHO",
+        "created_at": "2025-08-01 13:17:00",
+        "role": "user",
+        "_id": "688ca22c3c98d_1754047020"
+    },
+    {
+        "full_name": "Sujal Sai Kothamasu",
+        "email": "Sujalsaikothamasu@gmail.com",
+        "password": "$2y$10$mP8K74FRYaT.4EwQ3bl4jeDRYTlPEfmLdEkt2SOM2pCVyxhO89vDG",
+        "created_at": "2025-08-01 13:17:57",
+        "role": "user",
+        "_id": "688ca26501784_1754047077"
+    }
+]

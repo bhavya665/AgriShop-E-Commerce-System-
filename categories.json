@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "cat_688c9ba73769c",
+        "name": "Seeds",
+        "description": "High-quality seeds for various crops",
+        "image": "assets\/images\/seeds.jpg",
+        "created_at": "2025-08-01 12:49:11"
+    },
+    {
+        "_id": "cat_688c9ba7376e5",
+        "name": "Tools",
+        "description": "Essential farming tools and equipment",
+        "image": "assets\/images\/tools.jpg",
+        "created_at": "2025-08-01 12:49:11"
+    },
+    {
+        "_id": "cat_688c9ba7376e7",
+        "name": "Fertilizers",
+        "description": "Organic and chemical fertilizers",
+        "image": "assets\/images\/fertilizer.jpg",
+        "created_at": "2025-08-01 12:49:11"
+    },
+    {
+        "_id": "cat_688c9ba7376e9",
+        "name": "Animal Feed",
+        "description": "Quality feed for livestock",
+        "image": "assets\/images\/animal-feed.jpg",
+        "created_at": "2025-08-01 12:49:11"
+    }
+]

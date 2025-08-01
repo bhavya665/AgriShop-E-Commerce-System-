@@ -1,0 +1,46 @@
+[
+    {
+        "_id": "prod_688c9ba7379e1",
+        "name": "Wheat Seeds Premium",
+        "description": "High-yield wheat seeds for optimal harvest",
+        "price": 299.99,
+        "category_id": "cat_688c9ba73769c",
+        "image": "assets\/images\/product1.jpg",
+        "stock": 100,
+        "rating": 4.5,
+        "created_at": "2025-08-01 12:49:11"
+    },
+    {
+        "_id": "prod_688c9ba7379f7",
+        "name": "Garden Shovel",
+        "description": "Durable steel garden shovel for all soil types",
+        "price": 45.99,
+        "category_id": "cat_688c9ba7376e5",
+        "image": "assets\/images\/product2.jpg",
+        "stock": 50,
+        "rating": 4.2,
+        "created_at": "2025-08-01 12:49:11"
+    },
+    {
+        "_id": "prod_688c9ba7379f9",
+        "name": "Organic Fertilizer",
+        "description": "Natural organic fertilizer for healthy plants",
+        "price": 89.99,
+        "category_id": "cat_688c9ba7376e7",
+        "image": "assets\/images\/product3.jpg",
+        "stock": 75,
+        "rating": 4.7,
+        "created_at": "2025-08-01 12:49:11"
+    },
+    {
+        "_id": "prod_688c9ba7379fa",
+        "name": "Cattle Feed Mix",
+        "description": "Nutritious feed mix for cattle and livestock",
+        "price": 199.99,
+        "category_id": "cat_688c9ba7376e9",
+        "image": "assets\/images\/product4.jpg",
+        "stock": 30,
+        "rating": 4.3,
+        "created_at": "2025-08-01 12:49:11"
+    }
+]
